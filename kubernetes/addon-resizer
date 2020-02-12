@@ -1,1 +1,1 @@
-FROM gcr.io/google_conrainers/addon-resizer:latest
+FROM gcr.io/google_containers/addon-resizer:latest
