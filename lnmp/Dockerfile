@@ -14,7 +14,6 @@ RUN yum clean all && \
     yum -y install nginx php php-fpm
 
 RUN rm -rf /usr/share/nginx/html
-ADD www.conf ${CFG_ROOT}/
 ADD index.php ${DOC_ROOT}/
 ADD html /usr/share/nginx/html
 ADD entrypoint.sh /bin/
