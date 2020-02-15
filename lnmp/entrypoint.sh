@@ -1,5 +1,5 @@
 #!/bin/sh
-#This script is used to start the php-fpm;
+#This script is used to create configuration file and start the php-fpm ;
 cat >${CFG_ROOT}/www.conf <<EOF
 server {
         server_name ${HOSTNAME};
